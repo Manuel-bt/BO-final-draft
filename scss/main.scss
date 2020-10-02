@@ -1,0 +1,23 @@
+@import 'registry';
+@import 'home';
+@import 'movies';
+@import 'comingsoon';
+@import 'yor';
+@import 'subs';
+@import 'welcome';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$primary-color: #000;
+$secondary-color: #fff;
+$default-color: red;
+
+body{
+    background: $primary-color;
+    color: $secondary-color;
+}

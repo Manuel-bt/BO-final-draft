@@ -1,0 +1,28 @@
+.row{
+    color: $primary-color;
+    background: $secondary-color;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px rgb(31, 30, 30);
+}
+img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: $primary-color;
+    color: white;
+    border-radius:4px ;
+    font-weight: bold;
+
+    &:hover{
+        background: $secondary-color;
+        border: 1px solid;
+        color: $primary-color;
+    }
+}
