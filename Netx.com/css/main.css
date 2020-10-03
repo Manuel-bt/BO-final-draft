@@ -8,6 +8,11 @@
   background-size: cover;
 }
 
+#modal_video{
+  background: transparent !important;
+  border: none !important;
+}
+
 html {
   font-size: 14px;
 }

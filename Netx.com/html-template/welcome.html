@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BO:home</title>
+    <title>Welcome! BO</title>
 
     <!--Bootstrap links-->
     <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
@@ -16,45 +16,94 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 
-<body class="text-center" >
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" style="margin-top: -8vh;">
+<body class="text-center py-3" id="page-top" >
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" id="mainNav">
         <header class="masthead mb-auto">
           <div class="inner">
-            <h3 class="masthead-brand">Bila Bando</h3>
+              <h3 class="nav-brand ">Bila Bando!</h3>
             <nav class="nav nav-masthead justify-content-center">
-              <a class="nav-link active" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link " href="signin.html">Sign In</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#signup">Sign Up</a>
+              <a class="nav-link js-scroll-trigger" href="#contacts">Contacts</a>
             </nav>
           </div>
         </header>
-      
-        <main role="main" class="inner cover mt-5">
-          <h1 class="cover-heading">No Data? No Problem.</h1>
-          <p class="lead">We got you covered. Yes, it's on US. <br> Without using your data, get access to thousand of contents from Movies, TV Shows all the way to Anime <br> from around the world at the comfort of your screen.</p>
-          <p class="lead">
-            <a href="signup.html" class="btn btn-lg btn-light">Sign Up</a>
-          </p>
-        </main>
+        <hr style="height:1px;border-width:0;color:gray;background-color:#fff">
+    </div>
+        
+    
+    <!--Banner image-->
+    <div class="carousel" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active" style="background-image: url('../images/Banners/2018.jpg')">
+          <div class="carousel-caption">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="font-weight-normal d-md-block">No Data? No Problem.</h1>
+              <p class="lead text-white-50">We got you covered. Without using your data, get access to thousand of contents from Movies, TV Shows all the way to Anime from around the world at the comfort of your screen.</p>
+              <p class="lead"><a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a></p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!--about-->
+    <section class="projects-section bg-none mt-5" id="about">
+            <div class="container">
+                <!-- details Row-->
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5" style="background: none; box-shadow: none;">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="../images/Banners/ipad.png" alt="" /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4 class="text-light mx-2 mt-lg-2">On Multiple Devices</h4>
+                            <p class="lead text-white-50 mb-5">BO, Bila Bando is a device flexible platform. This means you can get the best quality experience despite the device you are using all without DATA!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+        <!--sign up-->
+    <section class="signup-section" id="signup">
+          <div class="container">
+              <div class="row align-items-center no-gutters mb-4 mb-lg-5" style="background: none; box-shadow: none;">
+                  <div class="col-md-10 col-lg-8 mx-auto text-center">
+                      <h2 class="lead font-weight-normal text-white mb-3 mt-5">Easy as pie.. just a few clicks away.</h2>
+                      <p class="lead mb-5"><a class="btn btn-primary" href="signup.html">Sign Up</a></p>
+                  </div>
+              </div>
+          </div>
+    </section>
     
     
 <!--Footer-->
-<footer class="footer mt-auto py-3">
+<footer class="footer mt-auto py-3" id="contacts">
     <div class="container">
       <hr style="height:1px;border-width:0;color:gray;background-color:#fff">
       
       <div class="row" style="background: none; box-shadow: none;">
         <div class="col-6 col-md">
-          <p class="text-light text-small"><a class="text-muted" href="#">Terms & Privacy Notice</a></p>
+          <p class="text-light text-small"><a class="text-primary" href="#">Terms & Privacy Notice</a></p>
         </div>
         <div class="col-6 col-md">
-          <p class="text-light text-small"><a class="text-muted" href="#">Questions? Contact Us.</a></p>
+          <p class="text-light text-small"><a class="text-primary" href="#">Questions? Contact Us.</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <p class="text-light text-small">
+            <a class="text-muted text-decoration-none" href="#">Name university,<br> Dar es salaam, TZ.</a>
+          </p>
+        </div>
+        <div class="col-6 col-md">
+          <p class="text-light text-small">
+            <a class="text-muted text-decoration-none" href="#">email@company.com</a>
+          </p>
         </div>
   
   
       <div class="col-12 ">
         <hr style="height:1px;border-width:0;color:gray;background-color:#fff">
-        <span class="text-muted">Bila Bando.</span>
+        <span class="text-muted">Bila Bando!</span>
         <small class="d-block mb-3 text-muted">&copy; 2020</small>
       </div>
       </div>

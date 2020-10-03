@@ -49,10 +49,11 @@
         display: table;
     }
     
-    .modal {
-        color: black;
+    #modal_video{
+        background: transparent !important;
+        border: none !important;
     }
-    
+
     a {
         text-decoration: none;
     
